@@ -896,6 +896,13 @@
         "selected_match_fg": [34, 146, 221, 255]
     },
     {
+        "class": "quick_panel_detail_label",
+        "color": [130, 130, 130, 255],
+        "link_color": [0, 139, 139, 255],
+        "monospace_color": [130, 130, 130, 255],
+        "monospace_background_color": [12, 40, 12, 19],
+    },
+    {
         "class": "quick_panel_path_label",
         "fg": [130, 130, 130, 255],
         "match_fg": [220, 220, 220, 255],

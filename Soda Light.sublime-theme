@@ -110,7 +110,7 @@
 //
 // TAB BUTTONS
 //
-    
+
     // Tab close button
     {
         "class": "tab_close_button",
@@ -189,7 +189,7 @@
 //
 // TAB LABELS
 //
-    
+
     {
         "class": "tab_label",
         "fade": true,
@@ -755,6 +755,13 @@
         "match_fg": [34, 146, 221, 255],
         "selected_fg": [25, 25, 25, 255],
         "selected_match_fg": [34, 146, 221, 255]
+    },
+    {
+        "class": "quick_panel_detail_label",
+        "color": [150, 150, 150, 255],
+        "link_color": [0, 139, 139, 255],
+        "monospace_color": [150, 150, 150, 255],
+        "monospace_background_color": [12, 40, 12, 19],
     },
     {
         "class": "quick_panel_path_label",
