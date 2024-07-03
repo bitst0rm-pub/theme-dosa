@@ -5,30 +5,30 @@
 	<key>author</key>
 	<string>Ian Hill</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Soda Light theme.</string>
+	<string>A widget theme for the UI components of the Dosa Dark theme.</string>
 	<key>name</key>
-	<string>Soda Light - Widget Theme</string>
+	<string>Dosa Dark - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#383838</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#F8F8F8</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#F8F8F8</string>
 				<key>invisibles</key>
-				<string>#E0E0E0</string>
+				<string>#3B3B3B</string>
 				<key>lineHighlight</key>
-				<string>#2D89D825</string>
+				<string>#333333</string>
 				<key>selection</key>
-				<string>#b5d5ff</string>
+				<string>#666666</string>
 				<key>selectionBorder</key>
-				<string>#b5d5ff00</string>
+				<string>#66666600</string>
 				<key>inactiveSelection</key>
-				<string>#EDEDED</string>
+				<string>#4a4a4a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,7 +41,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#0066FF</string>
+				<string>#505C63</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4271AE</string>
+				<string>#A7DBD8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -61,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2C473E</string>
+				<string>#E0E4CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -70,7 +70,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1D577D</string>
+				<string>#E0E4CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e47b18</string>
+				<string>#e9903c</string>
 			</dict>
 		</dict>
 	</array>
