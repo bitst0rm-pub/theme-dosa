@@ -1,37 +1,29 @@
-# Soda Theme
+# Dosa Theme
 
-Dark and light custom UI themes for Sublime Text 2 and Sublime Text 3.
-
-Project site: [https://buymeasoda.github.io/soda-theme/](https://buymeasoda.github.io/soda-theme/)
+Dark and light custom UI themes for Sublime Text `2`, `3`, `4`
 
 ## Design
 
-![Soda Light Theme](https://buymeasoda.github.io/soda-theme/images/screenshots/soda-2-light-theme.png?v=4)
+![Dosa Light Theme](https://bitst0rm-pub.github.io/theme-dosa/images/dosa-light-screenshot.png)
 
-![Soda Dark Theme](https://buymeasoda.github.io/soda-theme/images/screenshots/soda-2-dark-theme.png?v=2)
+![Dosa Dark Theme](https://bitst0rm-pub.github.io/theme-dosa/images/dosa-dark-screenshot.png)
 
 ## Installation
 
-Soda theme is designed to work with the latest development builds of Sublime Text, including [Sublime Text 2](http://www.sublimetext.com/dev) and [Sublime Text 3](http://www.sublimetext.com/3dev).
+**Using Git:**
 
-### Using Sublime Package Control
-
-If you are using Will Bond's excellent [Sublime Package Control](https://packagecontrol.io/), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
-
-### Using Git
-
-Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
+If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text application settings area.
 
 You can locate your Sublime Text `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+    git clone https://github.com/bitst0rm-pub/theme-dosa.git "Theme Dosa"
 
-### Download Manually
+**Download Manually:**
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
+* Unzip the files and rename the folder to `Theme Dosa`
 * Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
 * Copy the folder into your Sublime Text `Packages` directory
 
@@ -42,82 +34,64 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 ### Sublime Text 2
 
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Dosa Light.sublime-theme"` or `"theme": "Dosa Dark.sublime-theme"`
 
 **Example Sublime Text 2 User Settings**
 
     {
-        "theme": "Soda Light.sublime-theme"
+        "theme": "Dosa Light.sublime-theme"
     }
 
-### Sublime Text 3
+### Sublime Text 3 and 4
 
 * Open your User Settings Preferences file `Sublime Text -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light 3.sublime-theme"` or `"theme": "Soda Dark 3.sublime-theme"`
+* Add (or update) your theme entry to be `"theme": "Dosa Light 3.sublime-theme"` or `"theme": "Dosa Dark 3.sublime-theme"`
 
 **Example Sublime Text 3 User Settings**
 
     {
-        "theme": "Soda Light 3.sublime-theme"
+        "theme": "Dosa Light 3.sublime-theme"
     }
 
 ## Additional Features
 
 ### Alternate Tab Styles
 
-Soda Theme ships with two alternate UI tab styles.
+Dosa Theme ships with two alternate UI tab styles.
 
 By default, a square tab style is used. If you'd prefer to use the original curved tab style, add the following custom setting to your `Settings - User` file:
 
-    "soda_classic_tabs": true
+    "dosa_classic_tabs": true
 
-![Soda Tab Styles](https://buymeasoda.github.io/soda-theme/images/features/multiple-tab-styles.png)
+![Dosa Tab Styles](http://bitst0rm-pub.github.io/theme-dosa/images/features/multiple-tab-styles.png)
 
 ### Sidebar Folder Icons
 
-Soda Theme has folder icons by default with Sublime Text 3.
+Dosa Theme has folder icons by default with Sublime Text 3.
 
 If you'd like to use folder icons in the Sublime Text 2 sidebar instead of the regular arrows, add the following custom setting to your `Settings - User` file:
 
-    "soda_folder_icons": true
+    "dosa_folder_icons": true
 
-![Soda Folder Icons](https://buymeasoda.github.io/soda-theme/images/features/sidebar-folder-icons.png)
+![Dosa Folder Icons](http://bitst0rm-pub.github.io/theme-dosa/images/features/sidebar-folder-icons.png)
 
 ### Retina Resolution UI
 
-Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
+Dosa Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Dosa Light and Dosa Dark support retina displays.
 
-![Soda Retina](https://buymeasoda.github.io/soda-theme/images/features/soda-retina.png)
+![Dosa Retina](http://bitst0rm-pub.github.io/theme-dosa/images/features/dosa-retina.png)
 
 ### Theme Customisation
 
-Sublime Text provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
+Sublime Text provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Dosa Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
 
-## Bonus Options
+This modified version of Dosa Theme was inspired by the [Elementary theme](https://github.com/piotrkubisa/sublime-elementary). In case you might want to tweak the buttons:
 
-### Syntax Highlighting Colour Schemes
-
-The Soda Light screenshot uses a modified version of Espresso Tutti Colori and the Soda Dark screenshot uses a modified version of Monokai.
-
-If you'd like to use the syntax highlighting schemes shown in the screenshots:
-
-* Download [colour-schemes.zip](https://buymeasoda.github.io/soda-theme/extras/colour-schemes.zip)
-* Unzip and place the extracted `tmtheme` files in the Sublime Text `Packages/User` folder
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`
-
-### Code Font
-
-The code font shown in the screenshot is Menlo.
-
-## Development
-
-Please note, Sublime Text dev builds move quickly and changes can occur with the theme API between releases, so there may be occasions where the theme doesn't quite work with a brand new dev release.
-
-While developing the theme, I have documented some [theme challenges and ideas](https://github.com/buymeasoda/soda-theme/wiki/Theme-challenges-and-ideas) encountered along the way.
+* Download Photoshop source [theme-dosa-btn.zip](https://bitst0rm-pub.github.io/theme-dosa/extras/theme-dosa-btn.zip)
 
 ## License
 
-Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so.
+Dosa Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so.
 
 The following details apply to the Creative Commons license "author specified" components:
 
